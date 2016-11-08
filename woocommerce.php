@@ -287,6 +287,7 @@ final class WooCommerce {
 		include_once( WC_ABSPATH . 'includes/class-wc-data-store.php' ); // WC_Data_Store for CRUD
 		include_once( WC_ABSPATH . 'includes/data-stores/interface-wc-object-data-store.php' );
 		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-data-store-cpt.php' );
+		include_once( WC_ABSPATH . 'includes/data-stores/class-wc-coupon-data-store-cpt.php' );
 
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			include_once( WC_ABSPATH . 'includes/class-wc-cli.php' );
